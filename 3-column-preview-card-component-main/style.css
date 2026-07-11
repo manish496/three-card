@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  font-family: 15px;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  position: fixed;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  /* background-color: black; */
+  max-height: 400px;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  flex-wrap: wrap;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.sedan img {
+  padding-left: 10px;
+}
+
+.sedan-information {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding: 15px;
+  flex-direction: column;
+  background-color: hsl(31, 77%, 52%);
+}
+.sedan-btn {
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.sedan-btn a {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.suv img {
+  padding-left: 10px;
+}
+
+.suv-information {
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  height: 300px;
+  padding: 15px;
+  flex-direction: column;
+  background-color: hsl(184, 100%, 22%);
+}
+.suv-btn {
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.suv-btn a {
+  text-decoration: none;
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.luxury img {
+  padding-left: 10px;
+}
+
+.luxury-information {
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding: 15px;
+  flex-direction: column;
+  background-color: hsl(179, 100%, 13%);
+}
+.luxury-btn {
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.luxury-btn a {
+  text-decoration: none;
+  color: hsl(179, 100%, 13%);
+}
